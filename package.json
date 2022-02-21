@@ -1,0 +1,20 @@
+{
+  "name": "@srrathi/test-pkg-2",
+  "version": "1.0.0",
+  "description": "test pkg 2",
+  "main": "index.js",
+  "publishConfig": {
+    "@srrathi:registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "url": "git://github.com/srrathi/test-pkg-2.git"
+  },
+  "author": "Sitaram Rathi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
+}
